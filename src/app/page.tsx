@@ -1,5 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
+import hoodie from "/public/image/hoodie.avif";
+import coat from "/public/image/coat.avif";
+import jacket from "/public/image/jacket.avif";
+import jeans from "/public/image/jeans.avif";
+import shirt from "/public/image/shirt.avif";
+import sleeves from "/public/image/sleeves.avif";
+import suit from "/public/image/suit.avif";
+import sweater from "/public/image/sweater.avif";
+import tshirt from "/public/image/t-shirt.avif";
 
 export default function Home() {
   return (
@@ -79,21 +88,6 @@ export default function Home() {
                 className="group mt-4 flex w-full items-center justify-center gap-2 rounded-md bg-indigo-600 px-5 py-3 text-white transition focus:outline-none focus:ring focus:ring-yellow-400 sm:mt-0 sm:w-auto"
               >
                 <span className="text-sm font-medium"> CARI BARANG </span>
-
-                <svg
-                  className="size-5 rtl:rotate-180"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M17 8l4 4m0 0l-4 4m4-4H3"
-                  />
-                </svg>
               </button>
             </form>
           </div>
@@ -106,8 +100,9 @@ export default function Home() {
           className="group block"
         >
           <Image
-            src="https://plus.unsplash.com/premium_photo-1718913931807-4da5b5dd27fa?q=80&w=3272&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src={hoodie}
             alt="img"
+            width={1000}
             className="aspect-square w-full rounded object-cover"
           />
 
@@ -125,7 +120,7 @@ export default function Home() {
           className="group block"
         >
           <Image
-            src="https://plus.unsplash.com/premium_photo-1673977134363-c86a9d5dcafa?q=80&w=3088&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src={coat}
             alt="img"
             className="aspect-square w-full rounded object-cover"
           />
@@ -144,7 +139,7 @@ export default function Home() {
           className="group block"
         >
           <Image
-            src="https://plus.unsplash.com/premium_photo-1673757100765-5735ad708306?q=80&w=2975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src={jacket}
             alt="img"
             className="aspect-square w-full rounded object-cover"
           />
@@ -163,7 +158,7 @@ export default function Home() {
           className="group block"
         >
           <Image
-            src="https://images.unsplash.com/photo-1509305717900-84f40e786d82?q=80&w=3168&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src={jeans}
             alt="img"
             className="aspect-square w-full rounded object-cover"
           />
@@ -182,7 +177,7 @@ export default function Home() {
           className="group block"
         >
           <Image
-            src="https://plus.unsplash.com/premium_photo-1683121231638-4100d7f6deb2?q=80&w=3088&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src={shirt}
             alt="img"
             className="aspect-square w-full rounded object-cover"
           />
@@ -201,7 +196,7 @@ export default function Home() {
           className="group block"
         >
           <Image
-            src="https://images.unsplash.com/photo-1543274747-e969ff86c466?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src={sleeves}
             alt="img"
             className="aspect-square w-full rounded object-cover"
           />
@@ -220,7 +215,7 @@ export default function Home() {
           className="group block"
         >
           <Image
-            src="https://images.unsplash.com/photo-1721310062239-2c21104cc797?q=80&w=2400&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src={suit}
             alt="img"
             className="aspect-square w-full rounded object-cover"
           />
@@ -239,7 +234,7 @@ export default function Home() {
           className="group block"
         >
           <Image
-            src="https://plus.unsplash.com/premium_photo-1681822627106-2616801638c3?q=80&w=3081&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src={sweater}
             alt="img"
             className="aspect-square w-full rounded object-cover"
           />
@@ -258,7 +253,7 @@ export default function Home() {
           className="group block"
         >
           <Image
-            src="https://plus.unsplash.com/premium_photo-1673827311290-d435f481152e?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src={tshirt}
             alt="img"
             className="aspect-square w-full rounded object-cover"
           />
