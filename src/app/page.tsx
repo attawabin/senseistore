@@ -105,7 +105,7 @@ export default function Home() {
           href="https://wa.me/6285856589162?text=SENSEI STORE saya mau beli produk T-SHIRT "
           className="group block"
         >
-          <img
+          <Image
             src="https://plus.unsplash.com/premium_photo-1718913931807-4da5b5dd27fa?q=80&w=3272&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt=""
             className="aspect-square w-full rounded object-cover"
@@ -124,7 +124,7 @@ export default function Home() {
           href="https://wa.me/6285856589162?text=SENSEI STORE saya mau beli produk JEANS "
           className="group block"
         >
-          <img
+          <Image
             src="https://plus.unsplash.com/premium_photo-1673977134363-c86a9d5dcafa?q=80&w=3088&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt=""
             className="aspect-square w-full rounded object-cover"
@@ -143,7 +143,7 @@ export default function Home() {
           href="https://wa.me/6285856589162?text=SENSEI STORE saya mau beli produk SWEATER "
           className="group block"
         >
-          <img
+          <Image
             src="https://plus.unsplash.com/premium_photo-1673757100765-5735ad708306?q=80&w=2975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt=""
             className="aspect-square w-full rounded object-cover"
@@ -162,7 +162,7 @@ export default function Home() {
           href="https://wa.me/6285856589162?text=SENSEI STORE saya mau beli produk SHIRT "
           className="group block"
         >
-          <img
+          <Image
             src="https://images.unsplash.com/photo-1509305717900-84f40e786d82?q=80&w=3168&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt=""
             className="aspect-square w-full rounded object-cover"
@@ -181,7 +181,7 @@ export default function Home() {
           href="https://wa.me/6285856589162?text=SENSEI STORE saya mau beli produk JACKET "
           className="group block"
         >
-          <img
+          <Image
             src="https://plus.unsplash.com/premium_photo-1683121231638-4100d7f6deb2?q=80&w=3088&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt=""
             className="aspect-square w-full rounded object-cover"
@@ -200,7 +200,7 @@ export default function Home() {
           href="https://wa.me/6285856589162?text=SENSEI STORE saya mau beli produk COAT "
           className="group block"
         >
-          <img
+          <Image
             src="https://images.unsplash.com/photo-1543274747-e969ff86c466?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt=""
             className="aspect-square w-full rounded object-cover"
@@ -219,7 +219,7 @@ export default function Home() {
           href="https://wa.me/6285856589162?text=SENSEI STORE saya mau beli produk SLEEVES "
           className="group block"
         >
-          <img
+          <Image
             src="https://images.unsplash.com/photo-1721310062239-2c21104cc797?q=80&w=2400&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt=""
             className="aspect-square w-full rounded object-cover"
@@ -238,7 +238,7 @@ export default function Home() {
           href="https://wa.me/6285856589162?text=SENSEI STORE saya mau beli produk SUIT "
           className="group block"
         >
-          <img
+          <Image
             src="https://plus.unsplash.com/premium_photo-1681822627106-2616801638c3?q=80&w=3081&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt=""
             className="aspect-square w-full rounded object-cover"
@@ -257,7 +257,7 @@ export default function Home() {
           href="https://wa.me/6285856589162?text=SENSEI STORE saya mau beli produk HOODIE "
           className="group block"
         >
-          <img
+          <Image
             src="https://plus.unsplash.com/premium_photo-1673827311290-d435f481152e?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt=""
             className="aspect-square w-full rounded object-cover"
